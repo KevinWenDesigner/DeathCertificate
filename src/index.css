@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fafb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 自定义工具类 */
+.text-xxs {
+  font-size: 7px;
+  line-height: 1;
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  display: inline-block;
+  height: 100%;
+  font-weight: bold;
+}
+
+/* 确保打印垂直文本正常显示 */
+@media print {
+  .vertical-text {
+    writing-mode: vertical-lr !important;
+    text-orientation: upright !important;
+    transform: rotate(180deg) !important;
+    white-space: nowrap !important;
+    font-weight: bold !important;
+  }
+  
+  .text-xxs {
+    font-size: 6px !important;
+    line-height: 1.1 !important;
+  }
+}
+
+/* 确保打印时保持边框 */
+@media print {
+  table, th, td {
+    border: 1px solid black !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .page-break {
+    page-break-after: always;
+  }
+}
+
+/* 确保表单在各种屏幕尺寸下都能正常显示 */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+} 
