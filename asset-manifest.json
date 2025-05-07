@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DeathCertificate/static/css/main.aa04227c.css",
+    "main.js": "/DeathCertificate/static/js/main.e410c714.js",
+    "index.html": "/DeathCertificate/index.html",
+    "main.aa04227c.css.map": "/DeathCertificate/static/css/main.aa04227c.css.map",
+    "main.e410c714.js.map": "/DeathCertificate/static/js/main.e410c714.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa04227c.css",
+    "static/js/main.e410c714.js"
+  ]
+}
