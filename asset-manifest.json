@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DeathCertificate/static/css/main.aa04227c.css",
-    "main.js": "/DeathCertificate/static/js/main.e410c714.js",
+    "main.css": "/DeathCertificate/static/css/main.5875739e.css",
+    "main.js": "/DeathCertificate/static/js/main.40f9dc4d.js",
     "index.html": "/DeathCertificate/index.html",
-    "main.aa04227c.css.map": "/DeathCertificate/static/css/main.aa04227c.css.map",
-    "main.e410c714.js.map": "/DeathCertificate/static/js/main.e410c714.js.map"
+    "main.5875739e.css.map": "/DeathCertificate/static/css/main.5875739e.css.map",
+    "main.40f9dc4d.js.map": "/DeathCertificate/static/js/main.40f9dc4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa04227c.css",
-    "static/js/main.e410c714.js"
+    "static/css/main.5875739e.css",
+    "static/js/main.40f9dc4d.js"
   ]
 }
